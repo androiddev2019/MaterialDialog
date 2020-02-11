@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val d = ConfirmDialogHelper(this@MainActivity)
-        d.setMessage("Are you sure want to exit?")
+        d.setMessage("File deleted.")
         d.setPositiveButtonText("OK")
         d.setNegativeButtonText("Cancel")
         d.setAlertDialog()
