@@ -58,6 +58,7 @@ open class ConfirmDialogHelper(context: Context) : BaseDialogHelper() {
         tvNegative.text = pText
         return this
     }
+
     fun setAlertDialog(): ConfirmDialogHelper {
         tvNegative.visibility=View.GONE
         return this

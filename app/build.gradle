@@ -1,7 +1,5 @@
 apply plugin: 'com.android.application'
-
 apply plugin: 'kotlin-android'
-
 apply plugin: 'kotlin-android-extensions'
 
 android {
@@ -9,7 +7,7 @@ android {
     buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "com.globalvox.materialdialog"
-        minSdkVersion 19
+        minSdkVersion 22
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
